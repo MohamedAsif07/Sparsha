@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background">
+
+    <!-- First Image (e.g., Globe and Hands) -->
+
+    <!-- Second Image (e.g., Sparsha Text) -->
+
+    <ImageView
+        android:id="@+id/mainImage"
+        android:layout_width="289dp"
+        android:layout_height="281dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="42dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/image" />
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="333dp"
+        android:layout_height="275dp"
+        android:layout_below="@id/mainImage"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-27dp"
+        android:layout_marginEnd="22dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/image1" />
+</RelativeLayout>

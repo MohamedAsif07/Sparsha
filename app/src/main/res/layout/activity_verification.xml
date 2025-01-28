@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5FFE9"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <!-- Time Display (Mocked in UI, You can add Status Bar UI here if needed) -->
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Account is Verified!"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Shield Image with Check -->
+    <ImageView
+        android:id="@+id/verifiedImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/img2"
+        android:layout_marginBottom="15dp" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/subTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You’re all set to proceed to the Home Page"
+        android:textColor="#7A7A7A"
+        android:textSize="14sp"
+        android:layout_marginBottom="40dp" />
+
+    <!-- Button Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="Back"
+            android:textColor="#000000"
+            android:background="@drawable/rounded_white_button"
+            android:textSize="16sp"
+            android:layout_marginEnd="10dp" />
+
+        <!-- Next Button -->
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="Next >"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_black_button"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
