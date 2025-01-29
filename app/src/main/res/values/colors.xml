@@ -3,4 +3,12 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="hint_color">#606060</color>
+
+    <!-- Color for the radio button circle -->
+    <color name="radio_button_circle">#FF000000</color> <!-- Red circle -->
+    <!-- Color for the radio button text -->
+    <color name="radio_button_text">#FF000000</color> <!-- Blue text -->
+
+
+
 </resources>

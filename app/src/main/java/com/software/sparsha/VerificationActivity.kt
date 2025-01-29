@@ -20,7 +20,7 @@ class VerificationActivity : AppCompatActivity() {
         }
 
         nextButton.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, ReportActivity::class.java)
             startActivity(intent)
         }
     }
