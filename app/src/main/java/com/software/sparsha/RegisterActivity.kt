@@ -51,7 +51,7 @@ class RegisterActivity : AppCompatActivity() {
                 val intent = Intent(this, VerificationActivity::class.java)
                 startActivity(intent)
                 finish()
-            }, 3000)
+            }, 1000)
         }
     }
 }
