@@ -18,7 +18,7 @@ If you want to put your Android Studio project on **GitHub**, you need a structu
 3. **Connect Local Project to GitHub**  
    ```sh
    git branch -M main
-   git remote add origin https://github.com/MohamedAsif07/Sparsha#sparsha
+   git remote add origin https://github.com/MohamedAsif07/Sparsha
    git push -u origin main
    ```
 
